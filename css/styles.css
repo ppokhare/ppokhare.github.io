@@ -10206,25 +10206,6 @@ line-height: 2.8;
   width: 33.33%;
 }
 
-/* Clear floats after the columns */
-.contact-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.fas fa-envelope {
-  font-size: 20px;
-  color: #14dd2f;
-  float: left;
-  width: 440px;
-  height: 440px;
-  background: #dff3fc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-
+.footer {
+  background-color: #1a252f;
 }
