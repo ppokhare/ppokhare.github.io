@@ -91,7 +91,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/covid-projects.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
@@ -100,7 +100,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/imbalance-data-project.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
@@ -109,7 +109,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/movie-genre-project.png" alt="" />
                         </div>
                     </div>
 
@@ -167,7 +167,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Detecting COVID-19 with Convolutional Neural Networks</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -175,9 +175,20 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/covid-projects.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-5">A defining part of 2020 is the COVID-19 and how it has rapidly spread across the whole world. 
+                                        Due to its infectious nature, it is important to be able to detect its presence in someone as quickly as possible to prevent spreading it further. 
+                                        Here we leveraged pretrained models such as AlexNet, VGG-19 and ResNet-50 to speed up the training process and train our own convolutional neural networks (CNN) on Chest X-Ray images of patients with COVID-19, pneumonia and no disease. 
+                                        We explore the effectiveness of using deep learning to classify patients as whether or not they have coronavirus as a faster aid to help professionals detect the virus in patients. 
+                                        The overall results showed AlexNet to have the highest accuracy at 88%, followed by our convolutional network in second, and then VGG-19, then lastly ResNet. 
+                                        The results of this study are a step forward into exploring alternative methods for classifying this prominent virus. This is team project with the group of two.</p>
+
+                                    <button class="btn btn-primary" onClick="window.open('https://github.com/minavukovic/Detecting-COVID-19-with-Convolutional-Neural-Networks');">
+                                        <i class="fab fa-github"></i>
+                                            Check out the project
+                                    </button>
+
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -201,7 +212,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Handling Imbalanced Dataset for classification task</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -209,10 +220,16 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="" />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/imbalance-data-project.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
+                                    <p class="mb-5">In real life, almost all the data that you gathered will be highly imbalanced. For example, if you are a credit card company, then you will see a lot less non-fraudulent transactions in comparison to a fraudulent transaction. If you are a credit approval agency, then you will see a lot less default class in comparison to a non-default class. If you are a telecom company and trying to predict if your customers are likely to cancel their subscription, then you will find imbalances in your dataset as well.
+                                        There are various tactics to tackle this problem of imbalanced data set, but in this project, I am using two ways: Use of robust evaluation metrics (F1 score) and to oversample the least occurring class to avoid overfitting during the training process. 
+                                        I trained Logistic Regression, SVMs, K-Nearest Neighbor, Decision Trees, Random Forests, and AdaBoost in higly imbalanced occupancy datasets from UCI Machine Learning Repository and evaluated their training/testing F1 score. Extensive hyperparameter tunning and 5-fold cross-validation is used with 20:80 and 80:20 train test split. Testing F-1 score of 98.24%. </p>
+                                        <button class="btn btn-primary" onClick="window.open('https://github.com/ppokhare/Handling-Imbalanced-Dataset-for-classification-task');">
+                                            <i class="fab fa-github"></i>
+                                                Check out the project
+                                        </button>
+                                        <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
                                     </button>
@@ -235,7 +252,8 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Predicting Genres by using Movie Plot Summaries
+                                    </h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -243,10 +261,16 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="" />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/movie-genre-project.png" alt="" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
+                                    <p class="mb-5">This is team project with the group of three where we implemented binary/multi-class classification algorithms leveraging scikit-learn to classify movie genres. 83% accuracy on the top 10 genres using supervised learning methods.
+                                        We utilized the NLTK python library for the normalization process and TF-IDF vectorization to create a vectorized representation of the text.  
+                                        </p>
+                                        <button class="btn btn-primary" onClick="window.open('https://github.com/Shaezzer/COGS118B');">
+                                            <i class="fab fa-github"></i>
+                                                Check out the project
+                                        </button>
+                                        <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
                                     </button>
