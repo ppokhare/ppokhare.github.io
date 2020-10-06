@@ -10007,7 +10007,7 @@ h3 {
 }
 
 .divider-custom {
-  margin: 1.25rem 0 1.5rem;
+  margin: 0.025rem 0 0.05rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -10181,13 +10181,13 @@ line-height: 2.8;
 }
 
 .portfolio-modal .portfolio-modal-title {
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 2rem;
 }
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
-    line-height: 2.5rem;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 }
 .portfolio-modal .close {
@@ -10199,6 +10199,17 @@ line-height: 2.8;
   line-height: 3rem;
   color: #0080FF;
   opacity: 1;
+}
+
+.button-col{
+  float: left;
+  width: 50%;
+}
+
+.button-row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .footer {
